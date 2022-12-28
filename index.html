@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  /* link: https://script.google.com/a/macros/forsythk12.org/s/AKfycbyuYCxfkbBi_O3dTauuGgpM0yCqoTxunBYeHaKTR4hsCFiwDnjeWdwN8823vkcgUmg0ZA/exec */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "courier new", "lucida console", monaco, monospace;
+}
+
+/* Style the header */
+header {
+  background-color: #0a0a0a;
+  padding: 0px;
+  text-align: center;
+  font-size: 35px;
+  color: #11b502;
+  border: 2px solid;
+  border-color: #11b502;
+}
+
+/* Create two columns/boxes that floats next to each other - menu*/
+nav {
+  float: left;
+  width: 30%;
+  height: 450px;
+  background: #0a0a0a;
+  padding: 20px;
+  color: #11b502;
+  border: 2px solid;
+  border-color: #11b502;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: circle;
+  padding: 20px;
+  color: #11b502;
+}
+
+/* Right text, like the article */
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #0a0a0a;
+  height: 450px;
+  color: #11b502;
+  border: 2px solid;
+  border-color: #11b502;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #0a0a0a;
+  padding: 0px;
+  text-align: center;
+  color: #11b502;
+  border: 2px solid;
+  border-color: #11b502;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* links */
+a:link {
+  color: #11b502;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #11b502;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #11b502;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #11b502;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+</style>
+</head>
+<body>
+<header id="top">
+  <h2>The Vedant Sweepers</h2>
+  <p>The Website of the Rebellion!</p>
+</header>
+
+<section>
+  <nav>
+  	<h3>Menu</h3>
+    <!--Add in links in href later-->
+      <ul>
+      <li>COMING SOON</li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h2>Changelog</h2>
+    <p>Welcome to the changelog of this website.</p>
+    <p>All recorded changes are <i>after</i> the official release (starting at 0.8.0)</p>
+    <h3>0.8.1 Release Bug Fixes</h3>
+    <h4>Released on December 27, 2022 (right after 0.8.0)</h4>
+    <p>Bug fixes for the official release.</p>
+    <h3>0.8.0 Official Release</h3>
+    <h4>Released on December 27, 2022</h4>
+    <p>This release includes a password login to keep Vedant forces out, a changelog, an updated home screen that includes the flag and version, a links screen that comes after you log in, and complete list of all the members in the Vedant Sweepers. This is the official release of the Vedant Sweepers website! </p>
+  </article>
+</section>
+
+<footer>
+  <p>This was created using HTML and CSS!</p>
+  <p><a href="#top">Back to the top</a></p>
+</footer>
+
+</body>
+</html>
